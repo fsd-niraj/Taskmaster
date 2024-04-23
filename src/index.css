@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.trash_bin{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 14rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active{
+  border: 1px solid red;
+}
